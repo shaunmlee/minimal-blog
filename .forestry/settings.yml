@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: src/@lekoarts/gatsby-theme-minimal-blog/texts/hero.mdx
+  label: Hero
+  match: "**/*"
+- type: document
   path: gatsby-config.js
   label: Config
 - type: directory
